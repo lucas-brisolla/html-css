@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: #091F29;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+div#ico{
+    background-color: #0D2E3D;
+    background-image: url(images/tg-iconic-s32-947-e3e22f8a926d54b401267df9b52fcdb4.jpg);
+}
+
+nav{
+    background-color: #0D2E3D;
+    padding: 20px;
+
+}
+
+nav > a {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    padding: 20px;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    color: #0D2E3D;
+    background-color: #79D6F2;
+    text-decoration: underline;
+
+}
+
+section > div.thumb{
+    padding: 20px;
+}
+
+section > div.thumb > img.img{  
+    display: inline;
+}
